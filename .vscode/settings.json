@@ -1,0 +1,8 @@
+{
+  "nuxt.isNuxtApp": false,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#352D15",
+    "titleBar.activeBackground": "#4A3F1E",
+    "titleBar.activeForeground": "#FCFBF8"
+  }
+}

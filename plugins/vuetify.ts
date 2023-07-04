@@ -1,0 +1,162 @@
+
+import { createVuetify, ThemeDefinition } from 'vuetify'
+import * as components from 'vuetify/components'
+import '@mdi/font/scss/materialdesignicons.scss' // Ensure you are using css-loader
+import * as directives from 'vuetify/directives'
+
+export default defineNuxtPlugin(nuxtApp => {
+  const theme: ThemeDefinition = {
+    dark: false,
+    colors: {
+      primary: '#EE2E53',
+      secondary: '#FF9500',
+      orange: '#EE2E53',
+      black: '#06080F',
+      gery: '#515357',
+      blueGrey:'#F3F5FB',
+      surface: '#ffffff',
+      babyBlue: '#C8E9F2',
+      light: '#F8F8F8',
+      leightGrey: '#707174',
+      gradient1: '#FF9500',
+      secondGrey: '#9095A5',
+      
+      secondaryDark: '#EE2E53', 
+    }
+  }
+  const vuetify = createVuetify({
+    ssr: true,
+    theme: {
+      defaultTheme: 'mainTheme',
+      themes: { mainTheme: theme }
+    },
+    defaults: {
+
+
+ 
+      VAlert: {
+        density: 'comfortable',
+      },
+      VAvatar: {
+        // ℹ️ Remove after next release
+        variant: 'flat',
+      },
+      VBadge: {
+        // set v-badge default color to primary
+        color: 'primary',
+      },
+      VChip: {
+        size: 'small',
+      },
+      VMenu: {
+        VList: {
+        },
+      },
+      VPagination: {
+        activeColor: 'primary',
+        density: 'comfortable',
+        variant: 'tonal',
+      },
+      VTabs: {
+        // set v-tabs default color to primary
+        color: 'primary',
+        density: 'comfortable',
+        VSlideGroup: {
+          showArrows: true,
+        },
+      },
+      VTooltip: {
+        // set v-tooltip default location to top
+        location: 'top',
+      },
+      VList: {
+        VListItem: {
+          activeColor: 'primary',
+        },
+      },
+      VCheckbox: {
+        // set v-checkbox default color to primary
+        color: 'primary',
+        density: 'comfortable',
+        hideDetails: 'auto',
+      },
+      VRadioGroup: {
+        color: 'primary',
+        density: 'comfortable',
+        hideDetails: 'auto',
+      },
+      VRadio: {
+        density: 'comfortable',
+        hideDetails: 'auto',
+      },
+      VSelect: {
+        variant: 'outlined',
+        color: 'primary',
+        hideDetails: 'auto',
+      },
+      VRangeSlider: {
+        // set v-range-slider default color to primary
+        color: 'primary',
+        thumbSize: 14,
+        density: 'comfortable',
+        thumbLabel: true,
+        hideDetails: 'auto',
+      },
+      VRating: {
+        // set v-rating default color to primary
+        color: 'warning',
+      },
+      VProgressCircular: {
+        // set v-progress-circular default color to primary
+        color: 'primary',
+      },
+      VSlider: {
+        // set v-slider default color to primary
+        color: 'primary',
+        hideDetails: 'auto',
+        thumbSize: 14,
+      },
+      VTextField: {
+ 
+        variant: 'plain',
+        hideDetails: 'auto',
+      },
+      VAutocomplete: {
+       
+        color: 'primary',
+        hideDetails: 'auto',
+      },
+      VCombobox: {
+        variant: 'outlined',
+        color: 'primary',
+        hideDetails: 'auto',
+      },
+      VFileInput: {
+        variant: 'outlined',
+        color: 'primary',
+        hideDetails: 'auto',
+      },
+      VTextarea: {
+        variant: 'outlined',
+        color: 'primary',
+        hideDetails: 'auto',
+      },
+      VSwitch: {
+        // set v-switch default color to primary
+        color: 'primary',
+        hideDetails: 'auto',
+      },
+      VTimeline: {
+        lineThickness: 1,
+      },
+
+
+
+
+    },
+    components,
+    directives,
+
+  })
+  nuxtApp.vueApp.use(vuetify)
+})

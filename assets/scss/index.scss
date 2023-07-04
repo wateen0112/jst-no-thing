@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&family=Tajawal:wght@300;400;500;700&display=swap");
+* {
+    font-family: "Baloo Chettan 2", "Tajawal", sans-serif;
+    color:var(--v-grey-100);
+    transition: .4s;
+}
+
+html {
+    overflow: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color:var(--v-grey-100);
+}
+
+p {
+    font-weight: 400;
+    color:var(--v-grey-100);
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+ul {
+    list-style: none !important;
+}
+
+a {
+    // color: white !important;
+    text-decoration: none !important;
+}
+
+.Vue-Toastification__toast-body {
+    margin-left: 12px !important;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: all 0.3s;
+    position: static;
+}
+
+.page-enter-from,
+.page-leave-to {
+    opacity: 0;
+    filter: blur(1rem);
+}
+
+.layout-enter-active,
+.layout-leave-active {
+    transition: all 0.5s;
+}
+
+.layout-enter-from,
+.layout-leave-to {
+    opacity: 0;
+    filter: blur(1rem);
+}
+
+.v-navigation-drawer__scrim {
+    height: 100vh !important;
+}
+
+.v-navigation-drawer {
+    height: 100vh !important;
+}
+
+.v-input__details {
+    display: none !important;
+}
+
+// .v-input__control {
+//     color:white !important
+// }
+ 
+.v-expansion-panel__shadow {
+    box-shadow: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+   
+}

@@ -1,0 +1,95 @@
+
+.v-field__outline__start {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+.v-field__outline__end {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+.field {
+    .v-field__input,  .v-field__input:focus{
+        background-color: #F3F5FB !important;
+    }
+    input:autofill, input:autofill:hover, input:autofill:focus, input:autofill:active {
+        -webkit-box-shadow: 0 0 0 30px #F3F5FB inset !important;
+      }
+    .v-input__control{
+background-color: #F3F5FB !important;
+    padding-bottom: 5px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    border-radius: 16px !important;
+  
+    }
+    input:focus{
+        background-color: #F3F5FB !important;
+    }
+}
+   
+
+.v-carousel__controls{
+.v-btn--icon{
+    margin: 5px;
+    background-color: #a09595;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius:5px !important;
+}
+.v-btn__content{
+    background-color: #a09595 !important;
+    border-radius:5px !important;
+    
+}
+
+.v-icon{
+    background-color: #a09595 !important;
+  color: #a09595 !important;
+  border-radius:5px !important
+}
+.v-btn--active{
+    width: 60px !important;
+    background-color: #FF6A2B !important;
+    color: #FF6A2B !important;
+.v-icon {
+background-color: #FF6A2B !important;
+  color: #FF6A2B !important;
+  height: 14px !important;
+}
+}
+ 
+}
+.slider {
+    v-carousel__controls{
+.v-btn--icon{
+    margin: 5px;
+    background-color: #000;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius:5px !important;
+}
+.v-btn__content{
+    background-color: #000 !important;
+    border-radius:5px !important;
+    
+}
+
+.v-icon{
+    background-color: #000 !important;
+  color: #000 !important;
+  border-radius:5px !important
+}
+.v-btn--active{
+    width: 30px !important;
+    background-color: #FF6A2B !important;
+    color: #FF6A2B !important;
+.v-icon {
+background-color: #FF6A2B !important;
+  color: #FF6A2B !important;
+  height: 14px !important;
+}
+}
+ 
+}}
+

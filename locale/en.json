@@ -1,0 +1,51 @@
+{
+ "login":{
+  "login":"Login",
+  "email":"email",
+  "password":"password",
+  "forgetPassword":"forget password ? ",
+  "signupWith":"Or signup with ",
+  "notYjoz":"not YJOZ ? ",
+  "signup":"signup",
+  "errors":{
+    "email":"email is required !",
+    "password":"password is required !",
+    "invalid":"invalid email !",
+    "min":"very short password !",
+    "max":"very long password !"
+   
+  }
+ },
+ "register":{
+  "register":"register",
+  "email":"email",
+  "password":"password",
+  "confirmPassword":"confirm password",
+  "haveAnAccount":"already have an account ? ",
+  "login":"login",
+  "signupWith":"Or signup with ",
+"agree":" I agree with Yjoz ",
+"terms":"Terms and conditions ",
+  "errors":{
+    "email":"email is required !",
+    "password":"password is required !",
+    "confirmPassword":"confirm password is required !",
+    "invalid":"invalid email !",
+    "min":"very short password !",
+    "max":"very long password !",
+    "passNoTheSame":"passwords are not the same !",
+    "terms":"You must accept on our terms and conditions !"
+  }
+ }
+,"forgetPassword":{
+  "forgetPassword":"Forget Password ",
+  "enterEmail":"Please enter your email to send password reset instructions",
+  "email":"email",
+  "continue":"Continue",
+  "errors":{
+    "email":"email is required !",
+    "invalid":"invalid email !"
+  }
+}
+
+}
